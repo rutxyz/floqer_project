@@ -1,0 +1,75 @@
+.chatbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align */
+    padding: 20px;
+  }
+  
+  .chatbox-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align */
+    margin-bottom: 20px;
+  }
+  
+  .chatbox-input {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .chatbox-submit-container {
+    display: flex;
+    justify-content: flex-start; /* Left-align */
+    align-items: center;
+  }
+  
+  .chatbox-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .chatbox-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .response-heading, .suggested-questions-heading {
+    color: #007bff;
+  }
+  
+  .response-text, .suggested-question {
+    color: black;
+  }
+  
+  .suggested-questions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggested-question {
+    margin-bottom: 5px;
+  }
+  
+  .color-box {
+    width: 50%;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
